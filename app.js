@@ -11,11 +11,11 @@ $(function(){
               newRow.append('<td>' + data.name + '</td>');
               newRow.append('<td>' + data.username + '</td>');
               newRow.append('<td>' + data.email + '</td>');
-              newRow.append('<td>' + data.email + '</td>');
               resultTable.append(newRow);
-        }},
-        error: function() {
+           },
+           error: function() {
            alert('ユーザ情報の取得に失敗しました');
-        }
+          }
+      });
     });
 });
